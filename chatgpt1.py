@@ -4,10 +4,6 @@ from relation_class import Relation
 from sigmoid import sigmoid
 from balance_or_not import balance_or_not
 import os
-from dotenv import load_dotenv
-
-# .env ファイルを読み込む
-load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
